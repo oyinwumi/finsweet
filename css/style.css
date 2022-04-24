@@ -1,0 +1,310 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container-class{
+    width: 80%;
+    /* border: 1px solid orange; */
+   margin: 0 auto
+}
+.main-header{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 0px;
+}
+.right-section ul {
+    display: flex;
+    list-style: none;
+  
+   
+
+}
+.right-section{
+    display: flex;
+    align-items: center;
+}
+.road-assistance{
+    display: flex;
+    padding-left: 20px;
+}
+.right-section ul li{
+    margin: 20px;
+}
+.right-section ul li a{ 
+    text-decoration: none;
+color: #000;
+}
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+.road-assistance .icon {
+margin-right: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+} */
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+#hero-section .text-section{
+    width: 45%;
+} 
+
+#hero-section .image-section {
+    width: 55%;
+}
+
+#hero-section, #quote-section {
+    padding: 80px 0;
+}
+
+#hero-section .image-section {
+    background-image: url(../img/header-image.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 68vh;
+}
+
+.text-section h1 {
+    font-size: 64px;
+}
+
+.orange-btn {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+}
+
+.time-section {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section .time-text {
+    width: 95%;
+}
+.time-section img {
+    width: 100%;
+}
+
+.light-grey {
+    color: #939191;
+}
+
+#quote-section {
+    background: #E2E6E9;
+}
+
+#quote-section .left-section, #quote-section .right-form-section {
+    width: 45%;
+}
+
+#quote-section ul {
+    list-style: none;
+}
+
+#quote-section ul li {
+    margin-bottom: 20px;
+}
+
+#quote-section .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+}
+
+#quote-section .left-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+}
+
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+
+
+#quote-section .left-section .text-box {
+    width: 50%;
+}
+
+#quote-section .left-section .text-box h5 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#quote-section .right-form-section h3{
+    font-size: 48px;
+}
+
+#quote-section .right-form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.auto-repair .text-area1 , .auto-repair .text-area2 {
+    width: 40%;
+    margin: 50px;
+}
+.auto-repair .text-area1 h4 {
+    font-size: 58px;
+
+}
+
+
+.orange-btn{
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+   display: inline-block;
+   margin-top: 35px;
+
+}
+.image-box {
+    width: 72px;
+    height: 72px;
+    border-top-left-radius: 1px solid #FF6433;
+    margin-top: 20px;
+}
+#list-style {
+   list-style: none; 
+}
+.text-box{
+    padding: 20px;
+}
+.text-box h4 {
+    margin-bottom: 10px;
+    font-size:32px;
+}
+.pg{
+    font-size: 18px;
+}
+.offer-section {
+text-align: center;
+
+background-color: #ccc;
+  
+}
+#id {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.container {
+    margin: 30px;
+    margin-bottom: 30px;
+}
+#full-service{
+margin-bottom: 50px;
+font-size: 58px;
+}
+#image-item {
+    margin-bottom: 10px;
+}
+.about {
+    text-align: right;
+}
+#icon{
+    margin-top: 40px;
+}
+
+#link {
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.number {
+font-size: 58px;
+font-family: Manrope ;
+color:  #661CE7;
+
+}
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+}
+#brand-served {
+    font-size: 48px;
+    text-align: center;
+}
+#our-customer {
+    font-size: 48px;
+    text-align: center;
+  margin-top: 40px;
+
+}
+.testimony {
+    display: flex;
+    justify-content: space-around;
+}
