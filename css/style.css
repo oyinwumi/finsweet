@@ -6,8 +6,7 @@
 }
  .container-class{
     width: 80%;
-     /* border: 1px solid orange;  */
-   margin: 0 auto;
+    margin: 35px ;
 }
 .main-header{
 display: flex;
@@ -226,15 +225,17 @@ margin-right: 10px;
 .pg{
     font-size: 18px;
 }
-.offer-section {
+.offer-section  h5 p {
 text-align: center;
-
 background-color: #ccc;
   
 }
-#id {
+#link {
     font-size: 24px;
     margin-bottom: 20px;
+}
+#icon {
+    color: #000;
 }
 .container {
     margin: 30px;
@@ -447,7 +448,7 @@ font-size: 58px;
         }
          .footer-bottom {
             border: 1px solid #000;
-          background-color: #000;
+          background: #000;
           display: flex;
           justify-content: space-between;
           align-items: center;
@@ -465,16 +466,14 @@ font-size: 58px;
        .footer-bottom .bottom-nav  li a {
         text-decoration: none;
         color: #fff;
-         padding: 25px; 
+         padding: 20px; 
        }
 
-      
-
-
        #copyright {
-        margin-right: 40px; 
+        
+           display: block;
         color: #fff; 
-        display: block;
+    
        }
         /* mobile-view */
         @media (max-width: 426px) {
@@ -656,6 +655,13 @@ font-size: 58px;
             width: 100%;
 
         }
+        .bottom-nav {
+            margin-left: 95px;
+        }
+
+#copyright {
+    margin-top: 70px;
+}
      html, body{
          max-width: 100%;
             overflow-x: hidden;
