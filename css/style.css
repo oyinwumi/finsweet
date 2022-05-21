@@ -8,6 +8,11 @@
     width: 80%;
     margin: 35px ;
 }
+.container {
+    width: 80%;
+    margin: 35px ;
+}
+
 .main-header{
 display: flex;
 justify-content: space-between;
@@ -29,9 +34,7 @@ padding: 20px 0px;
     display: flex;
     padding-left: 20px;
 }
-.right-section ul li{
-    /* margin: 20px; */
-}
+
 .right-section ul li a{ 
     text-decoration: none;
 color: #000;
@@ -225,11 +228,20 @@ margin-right: 10px;
 .pg{
     font-size: 18px;
 }
-.offer-section  h5 p {
+.offer-section  {
 text-align: center;
-background-color: #ccc;
+/* background-color: #ccc; */
   
+
 }
+.offer-img{
+flex-wrap: wrap;
+justify-content: center;
+margin-left: 30px;
+background: whitesmoke;
+
+}
+
 #link {
     font-size: 24px;
     margin-bottom: 20px;
@@ -237,17 +249,21 @@ background-color: #ccc;
 #icon {
     color: #000;
 }
-.container {
+/* .container {
     margin: 30px;
     margin-bottom: 30px;
-}
+} */
 #full-service{
 margin-bottom: 50px;
 font-size: 58px;
+text-align: center;
 }
-#image-item {
-    margin-bottom: 10px;
+
+#wwo {
+    text-align: center;
 }
+    
+
 .about {
     text-align: right;
 }
@@ -280,7 +296,8 @@ font-size: 58px;
       margin: 35px;
       }
 
-      #brand-served {
+
+      /* #brand-served {
         font-size: 48px;
         text-align: center;
         }
@@ -291,15 +308,22 @@ font-size: 58px;
 
     }
      .brand1-2 {
-          margin: 0px auto;
+          
       }
     
-      #brand-row2 {
+       #brand-row2 {
           display: flex;
-        max-width: 100vh;
+        max-width: 100vh;  */
 
-      }
-
+        .brand1-2 {
+        flex-wrap: wrap;
+        margin-left: 20px;
+        }
+        
+        #brand-served {
+            font-size: 48px;
+            text-align: center;
+            }
         #our-customer {
         font-size: 48px;
         text-align: center;
@@ -413,9 +437,8 @@ font-size: 58px;
 
         .social-handles{
             display: flex;
-            /* justify-content: space-around; */
             margin-left: 10px;
-            padding: 30px;
+            padding: 40px;
            
 
          }
@@ -469,12 +492,6 @@ font-size: 58px;
          padding: 20px; 
        }
 
-       #copyright {
-        
-           display: block;
-        color: #fff; 
-    
-       }
         /* mobile-view */
         @media (max-width: 426px) {
             .main-header {
@@ -581,36 +598,27 @@ font-size: 58px;
     .auto-repair .text-box h4 {
     font-size: 30px;
 }
+    #wwo {
+        text-align: center;
+    }
         #full-service {
             font-size: 35px;
             margin-bottom: 40px;
+            text-align: center;
+
         }
-
-
             #brand-served {
                 width: 100%;
                 font-size: 35px;
+                text-align: center;
         }
-            #brand-row2 img {
-            width: 100px;
-            height: 50px;
-            }
-
-        #brand-row1 img {
-            width: 100px;
-            height: 50px;
-                    }
-
-   
-
+         
+    
         .get-image-section {
            width: 100%;
            
         }
 
-        .testimony-section {
-            flex-direction: column;
-        }
 
         .right-testimony .left-testimony  {
             width: 100%;
@@ -646,22 +654,18 @@ font-size: 58px;
             font-size: 30px;
         }
 
-        .social-handles {
-            display: block;
-        }
-
 
         .footer-topright {
             width: 100%;
 
         }
         .bottom-nav {
-            margin-left: 95px;
+            margin-left: 20px;
         }
+    #copyright {
+        margin-left: 20px;
+    }
 
-#copyright {
-    margin-top: 70px;
-}
      html, body{
          max-width: 100%;
             overflow-x: hidden;
@@ -669,7 +673,7 @@ font-size: 58px;
 
     }
         /* Tablet-view */
-    @media (min-width: 481px)and(max-width: 769px) {
+    @media(max-width: 769px) {
         .main-header {
             flex-direction: column;
             align-items: flex-start;
@@ -682,35 +686,26 @@ font-size: 58px;
             margin: 0 10px 10px 10px;
           
         }
+        
+        #wwo {
+            text-align: center;
+        }
+        #full-service {
+            font-size: 30px;
+        }
 
-        #brand-row1 img {
-            width: 200px;
-            height: 100px;
-                    }
-                    
-        #brand-row2  img {
-         width: 200px;
-        height: 100px;
-       }
-
+        .offer-img {
+        background: whitesmoke;
+        justify-content: center;
+        }
+    
+    #footer-logo{
+        margin-left: 15px; 
+    }
         html, body{
             max-width: 100%;
                overflow-x: hidden;
            }
-
-}
-
-
-
-
-
-
-     
-     
-     
-   
-   
-
-
-
+            
+        } 
 
