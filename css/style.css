@@ -654,7 +654,10 @@ color: #fff;
                 font-size: 35px;
                 text-align: center;
         }
-         
+        .brand1-2 {
+            display: flex;
+            width: 45%;
+        }
     
         #tool-section .car-section, #tool-section .orange-section ,#tool-section .auto-section {
            width: 100%;
@@ -750,9 +753,9 @@ color: #fff;
             max-width: 100%;
                overflow-x: hidden;
            }
-           #tool-section .car-section, #tool-section .orange-section ,#tool-section .auto-section {
-            width: 100%;
+           #tool-section .orange-section h2  {
+           font-size: 30px;
             
          } 
-        } 
-
+        
+        }
