@@ -559,6 +559,7 @@ text-align: center;
             width: 100%;
             justify-content: left;
             display: block;
+            margin-right: 20px;
         }
 
         #quote-section .left-section h2 {
@@ -618,8 +619,9 @@ text-align: center;
            width: 100%;
            
         }
-
-
+        .testimony-section {
+flex-direction: column;
+        }
         .right-testimony .left-testimony  {
             width: 100%;
             display: block;
