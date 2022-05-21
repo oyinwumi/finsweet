@@ -284,11 +284,52 @@ text-align: center;
 
      }
 
-     .get-image-section {
+     /* .get-image-section {
         background-image: url(../img/CTA.png);
         background-size: cover;
         min-height: 68vh;
+     } */
+     .tools {
+         display: flex;
      }
+#tool-section .car-section {
+width: 20%;
+height: 500px;
+background: url(../img/car.png);
+background-size: cover;
+background-position: left;
+}
+
+#tool-section .orange-section {
+width: 40%;
+background: #FF6433;
+height: 500px;
+}
+
+ #tool-section .orange-section h2 {
+font-size: 48px;
+padding: 45px;
+margin-top: 30px;
+color: #fff;
+} 
+#tool-section .orange-section .orange-btn {
+    background: black;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    margin-left: 35px;
+    display: inline-block;
+    color: #fff;
+}
+#tool-section .auto-section {
+    width: 40%;
+    height: 500px;
+    background: url(../img/cartool.png);
+    background-size: cover;
+    background-position: center;
+    }
 
      .rating {
        display: flex;
@@ -615,13 +656,14 @@ text-align: center;
         }
          
     
-        .get-image-section {
+        #tool-section .car-section, #tool-section .orange-section ,#tool-section .auto-section {
            width: 100%;
            
         }
-        .testimony-section {
-flex-direction: column;
-        }
+            .testimony-section {
+             flex-direction: column;
+            }
+
         .right-testimony .left-testimony  {
             width: 100%;
             display: block;
@@ -708,6 +750,9 @@ flex-direction: column;
             max-width: 100%;
                overflow-x: hidden;
            }
+           #tool-section .car-section, #tool-section .orange-section ,#tool-section .auto-section {
+            width: 100%;
             
+         } 
         } 
 
